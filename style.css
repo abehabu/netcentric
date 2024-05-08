@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(41, 156, 41);
+}
+.heading{
+    width: 100%;
+    background-color: white;
+}
+.heading h1{
+    color: green;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.image img{
+    margin: 100px;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+}
+.login{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.login input{
+    margin: 10px 10px 10px 0;
+    color: green;
+    width: 300px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+#page{
+    width: 300px;
+    color: green;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.login button{
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    /* align-self: center; */
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+select, button{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+button{
+    background-color: white;
+    color: green;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+}
+
